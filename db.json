@@ -1,5 +1,54 @@
 {
-    "products": [],
-    "categories": []
+    "products": [
+        {
+            "id": 0,
+            "name": "The Legend of Zelda",
+            "price": 200,
+            "image": "https://www.nintendo.com//content/dam/noa/pt_BR/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/the-legend-of-zelda-breath-of-the-wild-switch-hero.jpg",
+            "offer": false,
+            "category": [2,3],
+            "description": "The Legend of Zelda game",
+            "discount": 2
+        },
+        {
+            "id":1,
+            "name": "Mario 64",
+            "price": 250,
+            "image": "https://www.nintendo.com//content/dam/noa/pt_BR/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/the-legend-of-zelda-breath-of-the-wild-switch-hero.jpg",
+            "offer": false,
+            "category": [1,5],
+            "description": "Mario 64 game",
+            "discount": 2
+        }
+    ],
+    "categories": [
+        {
+        "id":0,
+        "name": "Acao"
+        },
+        {
+            "id":1,
+            "name": "Aventura"
+            },
+            {
+                "id":2,
+                "name": "RPG"
+                },
+                {
+                    "id":3,
+                    "name": "Estratégia"
+                    },
+                    {
+                        "id":4,
+                        "name": "Meias"
+                        },
+                        {
+                            "id":5,
+                            "name": "Clássicos"
+                            }
+
+        ],
+    "newsletter": []
+
 
 }
